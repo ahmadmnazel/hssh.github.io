@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     font-family: 'Open Sans', sans-serif;
+     overflow-x: hidden;
+
+}
+.heroimg{
+width: 100vw;
+height: 100vh;
+z-index: -1;
+filter: brightness(0.6);
+}
+.herodiv{
+
+    overflow: hidden;
+}
+nav{
+
+    position: absolute;
+    top: 10px;
+    left: 0; 
+    width: 100%; 
+    color: rgb(255, 255, 255); 
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+    ul{
+display: flex;
+        list-style: none;
+       
+
+    }
+    nav h1{
+        padding: 8px;
+    }
+    li{
+        padding: 12px;
+    }
+    .rsp{
+      
+      position: absolute;
+      top: 10px;
+      left: 0; 
+      width: 100%; /* Span the entire width */
+      color: rgb(255, 255, 255); /* Text color */
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      margin: 400px;
+      margin-top: 250px;
+      margin-left:250px ;
+      font-size: 50px;
+}
+    .afb{
+       
+        display: inline;
+        position: absolute;
+        top: 10px;
+        left: 0; /* Start at the very left */
+        width: 100%; /* Span the entire width */
+        color: rgb(255, 255, 255); /* Text color */
+        padding: 10px;
+        font-family: Arial, sans-serif;
+      margin-top: 320px;
+      margin-left:420px ;
+
+
+    }
+    .btnhero{
+padding: 20px;
+        position: absolute;
+        top: 10px;
+        left: 0; 
+        margin: 500px;
+        margin-top: 420px;
+        background-color: rgb(36, 138, 255);
+        border-style: none;
+        border-radius: 2px;
+        color: white;
+        font-weight: bolder;
+    }
+    .btnhero:hover{
+
+        cursor: pointer;
+        background-color: rgb(51, 160, 248);
+    }
+    .imgsdis p{
+        font-size: 16px; /* Approximate size for the paragraph text */
+        color: #666666; /* Lighter gray text */
+        text-align: center;
+        margin-top: 28px;
+
+margin-bottom: 40px;
+padding: 29px;
+    }
+    .imgsdis h1 {
+        font-size: 28px; /* Approximate size for the heading */
+    font-weight: bold;
+    color: #333333; /* Dark gray/black color */
+    text-align: center
+
+    }
+    .imgsdis{
+
+        margin-top: 85px;
+       
+    }
+    .images{
+
+
+        max-width: 900px;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+margin-left: 170px;
+margin-top: 77px;
+flex-wrap: wrap;
+margin-bottom: 77px;
+    }
+    
+ 
+    .fetr p{
+        font-size: 16px; /* Approximate size for the paragraph text */
+        color: #666666; /* Lighter gray text */
+        text-align: center;
+        margin-top: 28px;
+
+margin-bottom: 40px;
+padding: 29px;
+    }
+    .fetr h1 {
+        font-size: 28px; /* Approximate size for the heading */
+    font-weight: bold;
+    color: #333333; /* Dark gray/black color */
+    text-align: center;
+    padding: 9px;
+    margin-top: 90px;
+    
+
+    }
+    .pargraphs {
+        display: flex;
+        justify-content: space-between; /* Distributes space evenly */
+        gap: 20px; /* Space between items */
+        flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    }
+    
+    .pargraphs div {
+        flex: 1; /* Makes them share equal space */
+        min-width: 300px; /* Prevents them from shrinking too much */
+    }
+    .fetr{
+
+        background-color: rgb(237, 232, 232);
+    }
